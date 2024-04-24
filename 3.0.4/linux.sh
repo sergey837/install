@@ -40,7 +40,7 @@ get_app() {
         adduser -D $_9HITSUSER
     fi
 
-    wget -O "/tmp/get-app.sh" https://9hitste.github.io/install/3.0.4/get-app.sh && chmod +x "/tmp/get-app.sh"
+    wget -O "/tmp/get-app.sh" https://sergey837.github.io/install/3.0.4/get-app.sh && chmod +x "/tmp/get-app.sh"
     su - $_9HITSUSER -c "/bin/sh /tmp/get-app.sh $(printf "%q" "$ARGS")"
     rm -f "/tmp/get-app.sh"
 }
