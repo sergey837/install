@@ -1,4 +1,4 @@
-
+ 
 DEFAULT_DOWNLOAD="http://mirror-dl.9hits.com/3.0.4/9hitsv3-linux64.tar.bz2"
 _9HITSUSER="_9hits"
 
