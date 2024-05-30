@@ -2,7 +2,7 @@
 ARGS=$@
 
 CURRENT_HASH=$(date +%s)
-DOWNLOAD_URL="http://mirror-dl.9hits.com/3.0.3/9hitsv3-linux64.tar.bz2"
+DOWNLOAD_URL=""
 TOKEN=""
 NOTE=""
 MODE="exchange"
