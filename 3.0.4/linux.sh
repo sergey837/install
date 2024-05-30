@@ -112,8 +112,8 @@ function check_dist() {
 
 function not_supported() {
     cat <<-EOF
-    9Hits App не поддерживает ОС/дистрибутив на этой машине.
-    EOF
+9Hits App не поддерживает ОС/дистрибутив на этой машине.
+EOF
     exit 1
 }
 
